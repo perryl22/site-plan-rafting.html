@@ -22,11 +22,11 @@ background-color: white;
 color: #15A7B7;
 }
 header{
-background-color: white;
+background-color: #15A7B7;
 color: #15A7B7;
 }
 nav :hover{
-background-color: white;
+background-color: black;
 color: #15A7B7;
 }
 .book, .join{
@@ -38,19 +38,22 @@ background-color: white;
 color: #15A7B7;
 }
 #background{
-background-color: white;
+background-color: #15A7B7;
 color: #15A7B7;
 }
 .msg{
-background-color: white;
+background-color: #15A7B7;
 color: #15A7B7;
 }
 footer{
-background-color: white;
+background-color: #15A7B7;
 color: #15A7B7;
 }
-#hero-img.icon {
-    width: 80px;
+#toppic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 #nav {
     text-align: center;
@@ -58,9 +61,33 @@ color: #15A7B7;
 .book, .join{
         color: #15A7B7;
 }
-footer {
-        text-decoration: none;
+footer p {
+        font-size: 1.2em;
+        color: white
 }
 footer a:hover {
     text-decoration: underline;
 }    
+.card-img {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.fb {
+    width: 60px;
+}
+.icon {
+    width: 40px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+.msg {
+    color: white
+}
