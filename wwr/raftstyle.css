@@ -21,12 +21,19 @@ body{
 background-color: white;
 color: #15A7B7;
 }
+
 header{
 background-color: #15A7B7;
 color: #15A7B7;
 }
+
 nav :hover{
 background-color: black;
+background-color: white;
+color: #15A7B7;
+}
+nav :hover{
+background-color: white;
 color: #15A7B7;
 }
 .book, .join{
@@ -38,6 +45,7 @@ background-color: white;
 color: #15A7B7;
 }
 #background{
+
 background-color: #15A7B7;
 color: #15A7B7;
 }
@@ -54,6 +62,19 @@ color: #15A7B7;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+background-color: white;
+color: #15A7B7;
+}
+.msg{
+background-color: white;
+color: #15A7B7;
+}
+footer{
+background-color: white;
+color: #15A7B7;
+}
+#hero-img.icon {
+    width: 80px;
 }
 #nav {
     text-align: center;
@@ -91,3 +112,11 @@ footer a:hover {
 .msg {
     color: white
 }
+
+footer {
+        text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}    
+
