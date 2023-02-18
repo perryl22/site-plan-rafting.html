@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 19px;
+    max-width: 960px;
+    min-width: 960px;
+    margin: auto;
+    background-color: rgb(136, 150, 113);
+  }
+  
+  header,
+  footer {
+    padding: 0.5rem;
+    background-color: rgb(62, 80, 62);
+    display: grid;
+    align-items: center;
+  }
+  
+  header {
+    grid-template-columns: 1fr 550px 50px;
+    margin-bottom: 10px;
+  }
+  header,
+  a,
+  link {
+    color: white;
+  }
+  main {
+    background-color: rgb(121, 112, 96);
+    padding-bottom: 35px;
+  }
+  
+  /*navigation bar*/
+  .main-nav {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+  .main-nav li {
+    flex: 1 1 auto;
+  }
+  .main-nav a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: rgb(136, 150, 113);
+    border: 1px solid rgba(255, 255, 255, 0.397);
+  }
+  .main-nav a:hover {
+    color: black;
+    background-color: white;
+  }
+  .main-nav .active {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+  }
+  h2 {
+    padding-bottom: 10px;
+  }
+  h3,
+  h2 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px black;
+  }
+  h4 {
+    color: white;
+    font-size: 36px;
+    text-shadow: 3px 3px 5px black;
+  }
+  h5 {
+    color: white;
+    font-size: 32px;
+    text-shadow: 3px 3px 5px black;
+    padding-bottom: 10px;
+  }
+  p {
+    color: white;
+    line-height: 1.5rem;
+  }
+  footer {
+    grid-template-columns: 1fr 180px;
+    height: 75px;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  /* class selectors */
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .logo {
+    padding: 8px 8px 8px 30px;
+  }
+  .love,
+  .enjoy {
+    text-align: center;
+  }
+  .banner-image {
+    max-width: 920px;
+    position: relative;
+    margin: 20px;
+    box-shadow: 0 0 20px black;
+    justify-items: center;
+  }
+  .callbutton {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 208, 0, 0.911);
+    padding: 10px 10px 5px 10px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+  }
+  .callbutton p {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .calltitle {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(204, 149, 47);
+    padding: 0px 10px 5px 10px;
+  }
+  /*grid selectors*/
+  .two {
+    display: grid;
+    margin-top: 45px;
+  }
+  .greenriver {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+  }
+  .calm {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    border: 2px solid rgb(54, 87, 50);
+    box-shadow: 0 0 10px black;
+    margin-right: 25px;
+  }
+  .life {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .three {
+    display: grid;
+    grid-template-rows: 160px 180px;
+    margin-top: 45px;
+  }
+  .runriver {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 25px 0px 25px;
+  }
+  .rapids {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    border: 2px solid rgb(54, 87, 50);
+    box-shadow: 0 0 10px black;
+    margin-left: 25px;
+  }
+  .shuttle {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+  }
+  .enjoy {
+    margin: 25px 150px 0px 150px;
+    padding-bottom: 50px;
+  }
+  .love {
+    margin-top: 40px;
+  }
+  .gorge,
+  .canyon {
+    margin-top: 10px;
+    position: relative;
+    border-bottom: 15px solid rgb(62, 80, 62);
+  }
+  .grr {
+    padding: 25px 0px 15px;
+  }
+  .raft-title,
+  .faq-title {
+    top: 40px;
+    position: absolute;
+    background: rgb(136, 150, 113, 0.6);
+    padding: 20px 20px 20px 20px;
+    width: 960px;
+  }
+  
+  /*page 2*/
+  .raftdes {
+    text-align: center;
+    padding: 25px 55px 40px 55px;
+    font-size: 32px;
+    line-height: 2rem;
+  }
+  .araft,
+  .braft,
+  .craft,
+  .draft {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    padding: 50px;
+    gap: 40px;
+    text-align: center;
+    margin: 20px 75px 20px 75px;
+  }
+  .mon {
+    color: black;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px 0px 20px;
+    text-shadow: 3px 3px 2px rgb(228, 191, 30);
+  }
+  .pic {
+    grid-column: 1/2;
+    padding-top: 20px;
+  }
+  .trailor-truck {
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+  }
+  .raft-stack {
+    text-align: center;
+    margin: 0px 160px 0px 170px;
+  }
+  .trailor {
+    margin: 30px;
+    box-shadow: 0 0 20px black;
+  }
+  
+  /*page 3*/
+  .questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 40px 50px 0px 50px;
+  }
+  .a,
+  .b,
+  .c,
+  .d,
+  .e,
+  .f,
+  .g,
+  .h,
+  .i,
+  .j,
+  .k,
+  .l,
+  .m,
+  .n {
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px solid rgb(62, 80, 62);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+  }
