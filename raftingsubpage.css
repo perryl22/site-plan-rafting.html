@@ -1,0 +1,102 @@
+/* Everything under the header tab is the same format as the homepage. */
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #15A7B7;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    }
+
+    .logo {
+        width: 80px;
+    
+    }
+
+    #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fcfbfb;
+        text-align: center;
+        padding: 35px;
+    }
+
+    nav a{
+        text-align: center;
+    }
+    
+    nav a:hover{
+        background-color: white;
+        color: #15A7B7;
+    }
+
+
+/* This next section is for the first picture. */
+#picture-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px;
+    align-self: center;
+}
+
+
+/* This next section is for the FAQ. */
+.faq-title {
+    font-size: xx-large;
+    background-color: #15A7B7;
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+
+
+/* This is the footer, the same as the home page. */
+footer {
+    background-color: #15A7B7;
+    color: #15A7B7;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+footer .social img {
+    padding-top: 15px;
+    padding-right: 20px;
+    }
+
+footer p {
+    font-size: 1.2em;
+    color: white;
+    margin-left: 80px;
+    }
+
+footer a:hover {
+    text-decoration: underline;
+    }  
+    
+.fb {
+    width: 60px;
+    }
+
+footer a:hover {
+    text-decoration: underline;
+    }   
+
+footer {
+    margin-top: 25px;
+    }
+        
