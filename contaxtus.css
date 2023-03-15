@@ -1,0 +1,164 @@
+/* Everything under the header tab is the same format as the homepage. */
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #15A7B7;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    }
+
+    .logo {
+        width: 80px;
+    
+    }
+
+    #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fcfbfb;
+        text-align: center;
+        padding: 35px;
+    }
+
+    nav a{
+        text-align: center;
+    }
+    
+    nav a:hover{
+        background-color: white;
+        color: #15A7B7;
+    }
+
+#section {
+    height: 200px;
+}
+
+    form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      form li + li {
+        margin-top: 1em;
+      }
+      
+      label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+      
+      input,
+      textarea {
+        /* To make sure that all text fields have the same font settings
+           By default, textareas have a monospace font */
+        font: 1em sans-serif;
+      
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+      
+        /* Match form field borders */
+        border: 1px solid #999;
+      }
+      
+      input:focus,
+      textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+      }
+      
+      textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
+      
+        /* Provide space to type some text */
+        height: 5em;
+      }
+      
+      .button {
+        /* Align buttons with the text fields */
+        padding-left: 300px; /* same size as the label elements */
+      }
+      
+      button {
+        /* This extra margin represent roughly the same space as the space
+           between the labels and their text fields */
+        margin-left: 0.5em;
+      }
+
+
+
+
+
+/* This next section is for the first picture. */
+#picture-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px;
+    align-self: center;
+}
+
+
+
+/* This is the footer, the same as the home page. */
+footer {
+    background-color: #15A7B7;
+    color: #15A7B7;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+footer .social img {
+    padding-top: 15px;
+    padding-right: 20px;
+    }
+
+footer p {
+    font-size: 1.2em;
+    color: white;
+    margin-left: 80px;
+    }
+
+footer a:hover {
+    text-decoration: underline;
+    }  
+    
+.fb {
+    width: 60px;
+    }
+
+footer a:hover {
+    text-decoration: underline;
+    }   
+
+
+        
