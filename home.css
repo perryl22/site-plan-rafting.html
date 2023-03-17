@@ -1,0 +1,139 @@
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: .8fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #dcc4b6;
+    height: 170px;
+    width: 100%;
+}
+
+/* Tiny profile pic */
+.header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Lillie Perry */
+.header h2 {
+    grid-column: 1/2;
+    text-align: center;
+    color: #3a200e
+}
+
+/* Home */
+header a {
+    text-align: center;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #3a200e;
+
+}
+
+/* About Me */
+header .about-me {
+    text-align: center;
+    grid-column: 3/4;
+    color: #3a200e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+/* Contact Me */
+header .contact-me {
+    text-align: center;
+    grid-column: 4/5;
+    color: #3a200e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+/* BODY */
+body {
+    background-color: white;
+    margin: 0;
+}
+.picture-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.picture-text img {
+    grid-column: 1/2;
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+}
+/* Hello, I'm Lillie Perry! */
+.picture-text h1 {
+    text-align: center;
+    font-size: xx-large;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    color: #4a634b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Welcome to my personal website! */
+.picture-text h2 {
+    text-align: center;
+    font-size: x-large;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    margin-top: 170px;
+    color: #4a634b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Here you can learn a little... */
+.picture-text p {
+    text-align: center;
+    font-size: 120%;
+    color: #4a634b;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    margin-top: 250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2;
+    margin-left: 125px;
+    margin-right: 125px;
+    font-weight: 1000;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #dcc4b6;
+    font-size: larger;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3a200e
+    
+    
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    
+}
+
